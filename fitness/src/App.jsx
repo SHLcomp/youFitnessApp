@@ -43,7 +43,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-    <Provider>
+    <Provider basename="/youfitnessApp/">
     <RouterProvider router={router} />
     </Provider>
     </>
